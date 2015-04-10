@@ -1,0 +1,24 @@
+{
+  "name": "cache-header-control",
+  "version": "0.1.0",
+  "description": "Control the response cache header",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dolymood/cache-header-control.git"
+  },
+  "author": "dolymood <dolymood@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dolymood/cache-header-control/issues"
+  },
+  "homepage": "https://github.com/dolymood/cache-header-control",
+  "devDependencies": {
+    "express": "^4.12.3",
+    "mocha": "^2.2.4",
+    "supertest": "^0.15.0"
+  }
+}
