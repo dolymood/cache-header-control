@@ -1,7 +1,6 @@
 // Control the response cache header
 
 module.exports = function(res, time) {
-  console.log(res.setHeader, time);
   if (!time || (0 - time > 0)) {
     return setHeaders(res, {
       'Cache-Control': 'no-cache, no-store, must-revalidate',
