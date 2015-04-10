@@ -16,8 +16,7 @@ var setCacheHeader = require('cache-header-control');
 var app = express();
 
 app.use(function (req, res, next) {
-  // Sets `Cache-Control` header to `public, max-age=600`
-  // and `Expires` to `600`
+  // Sets `Cache-Control` header to `public, max-age=600` and `Expires` too
   // 'minute' -> 10 minutes -> 600 seconds
   setCacheHeader(res, 'minute');
   next();
